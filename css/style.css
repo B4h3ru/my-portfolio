@@ -381,10 +381,10 @@ body{
         padding-left: 3vw;
     }
     a{
-        color:rgb(17, 17, 244) ;
+        color:rgb(25, 231, 11) ;
     }
     a:hover{
-        color: greenyellow;
+        color: rgb(245, 237, 16);
     }
     a:active{
         color: red;
