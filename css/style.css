@@ -71,7 +71,6 @@ body{
     float: right;
     ul{
         position: relative;
-        /* display: inline; */
         border: 2px rgb(187, 185, 185) solid;
         border-radius: 10px;
         padding: 10px;
@@ -84,8 +83,11 @@ body{
         display: inline;
         padding-right: 15px;
         list-style-type: none;
+        list-style: none;
+        
     }
         a{
+            /* display: inline; */
             text-decoration: none;
             color: white;
             font-size: 20px;
@@ -101,7 +103,7 @@ body{
             color: blue;
             border: 2px blue solid;
         } 
-    /* } */
+    
 }
 
 
@@ -114,6 +116,7 @@ body{
     }
         ul{
             position: absolute;
+            display: none;
             background-color: black;
             z-index: 10;
             height: 300px;
@@ -127,7 +130,7 @@ body{
         display: block;
     }
 
-    input[type=checkbox] ,ul{
+    input[type=checkbox] ,ul,li{
         transition: all 0.3s;
         box-sizing: border-box;
         display: none;
@@ -140,15 +143,17 @@ body{
         margin-top: 0px;
         li{
             transition: all 0.5s;
-            position: relative;
+            /* position: relative; */
             margin-top: 22px;
             display: block;
             list-style-type: none;
+            list-style: none;
         }
     }
-     
-   
+       
 }
+
+
 
 /* section style */
 .home-container{
@@ -372,8 +377,6 @@ body{
         color: red;
     }
 }
-
-
 
 
 
